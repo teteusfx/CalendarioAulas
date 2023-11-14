@@ -1,0 +1,27 @@
+:root {
+    /* font-family: 'JetBrains Mono', monospace; */
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    --primary: #16213E;
+    --secondary: #0F3460;
+    --terceary: #533483;
+    --lightblue: lightblue;
+    --soft-white: #f1f1f1;
+    --white: #fefefe;
+    --black: #111;
+    --gray: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--lightblue);
+}
